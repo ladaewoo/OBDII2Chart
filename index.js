@@ -1,3 +1,8 @@
+/*****
+* Por el momento solo genera un json que convierte y guarda como csv, a partir de un archivo con el volcado de los datos de un slot de memoria del scanner
+* se pretende generar los gráficos a partir de los datos almacenados.
+**/
+
 const fs = require("fs");
 const json2csv = require('json2csv').parse;
 
